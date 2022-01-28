@@ -1,0 +1,102 @@
+body{
+    background: rgb(238, 237, 237);
+}
+
+.panel-heading {
+    border-color: rgb(23, 162, 184);
+    border: 5px;
+}
+
+.panel {
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 5%);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+
+    border:3px solid rgb(23, 162, 184);
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.searchbox{
+    width: 98vw;
+}
+
+.title{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-size: 20pt;
+}
+
+.panel-body{
+    font-weight: bold;
+}
+
+.boardlistbox{
+    float: left;
+    width: 48.5vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tablehead{
+    background: rgb(23, 162, 184);
+    color: white;
+}
+
+.tablecontent{
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.boardinputbox{
+    float: right;
+    width: 48.5vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pagination{
+    float: right;
+}
+
+.pagination>li>a, .pagination>li>span{
+    color: gray;
+}
+
+.boardnum{
+    float: left;
+    width: 48%;
+}
+
+.writeday{
+    float: right;
+    width: 48%;
+}
+
+.btn-primary{
+    background: rgb(23, 162, 184);
+    border: 0px;
+}
+
+.btn-danger{
+    border: 0px;
+    background: #d9534f
+}
+
+.buttongruops{
+    float: right;
+}
+
+.searchtitle{
+    width: 20%;
+    display: table-cell;
+}
+
+
+.row{
+    margin-left: 1em;
+    margin-right: 1em;
+}
